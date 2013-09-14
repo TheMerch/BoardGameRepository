@@ -3,6 +3,8 @@
  * @author Jacky Nguyen <jacky@sencha.com>
  */
 (function() {
+    
+    console.log("In development.js");
     var head = document.head;
 
     function write(content) {
