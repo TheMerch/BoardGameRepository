@@ -27,7 +27,8 @@ Ext.application({
     ],
 
     views: [
-        'Main'
+        'Main'//,
+        //'LogIn'
     ],
 
     icon: {
@@ -54,6 +55,9 @@ Ext.application({
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('BoardGame.view.Main'));
+
+        // Initialize the LogIn view
+        //Ext.Viewport.add(Ext.create('BoardGame.view.LogIn'));
     },
 
     onUpdated: function() {
